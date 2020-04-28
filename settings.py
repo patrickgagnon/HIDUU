@@ -1,1 +1,14 @@
+# HIDUU Settings
 
+UNVETTED_SYNC_ID = ''
+VETTED_SYNC_ID = ''
+
+SYSTEM_SECRET =  ''
+
+SYS_ACCT_ID = ''
+
+FILE_NAME0= ''
+FILE_NAME1 = ''
+
+SV = #INT
+FILE_TYPE_ID = '' 
