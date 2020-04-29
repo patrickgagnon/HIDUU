@@ -1,5 +1,7 @@
 # HealtheIntent Data Upload Utility ![Cerner](https://logos-download.com/wp-content/uploads/2016/10/Cerner_Corporation_logo.png)
 
+<img src="https://logos-download.com/wp-content/uploads/2016/10/Cerner_Corporation_logo.png" alt="drawing" style="width:200px;"/>
+
 ## What is Cerner HIDUU?
 >**HealtheIntent Data Upload Utility (HIDUU)** enables you to upload different data sets into the HealtheIntent cloudbased system. HIDUU is intended to replace Data Upload Utility (DUU) as the primary means for uploading data in batch to the HealtheIntent system; for more information, see Benefits of HealtheIntent Data Upload Utility Over DUU. The HIDUU is a Java-based command-line application that wraps Web services. It can be executed from either Microsoft Windows or Unix operating systems. It performs some file-level, client-side validation before uploading the file. OAuth is used to authorize the system from which the file is originating. The endpoint is protected by the Cerner Care OAuth service. You can achieve automation by scripting the execution of the utility's various commands.
 
