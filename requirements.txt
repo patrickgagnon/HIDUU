@@ -1,7 +1,4 @@
-#! Users/pgagnon/Documents/Python-Projects/HIDUU
-
-pip==20.0.2
-wheel==0.33.1
+pip==20.1.0
+wheel==0.34.2
 setuptools==40.8.0
-subprocess==3.7.7
-os==3.7.7
+twine==3.1.1
