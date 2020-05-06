@@ -10,5 +10,5 @@ SYS_ACCT_ID = ''
 FILE_NAME0= ''
 FILE_NAME1 = ''
 
-SV = #INT
+SV = ''
 FILE_TYPE_ID = '' 
