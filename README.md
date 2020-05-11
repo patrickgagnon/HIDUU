@@ -8,6 +8,9 @@
 ## What is this repository for?
 This repository contains updated production code that made it possible to upload files using the HIDUU utility. This wrapper provides functionality for both UNIX and Windows systems.
 
+## System and PAckage Configuration
+For this package to work the software, hi-Data_upload_utility, must be fully installed and initialized on the machine running these processes. Configuring this wrapper to your HIDUU installation requires the user to then create and maintain a settings file in their local environment. This file contains all the parameters and arguments necessary for a HIDUU command to be executed.
+
 ## Further Documentation:
 ### Cerner Corporation
 [Cerner Corporation Homepage](https://www.cerner.com/)
