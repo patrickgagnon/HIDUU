@@ -7,7 +7,7 @@ with open("README.md", "r") as readme_file:
 
 setup(
     name="HIDUU",
-    version="1.0.0",
+    version="1.0.1",
     author="Patrick Gagnon",
     author_email="plgagnon00@gmail.com",
     description="A package to upload information to Cerner HealtheIntent",
