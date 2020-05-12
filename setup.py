@@ -7,7 +7,7 @@ with open("README.md", "r") as readme_file:
 
 setup(
     name="HIDUU",
-    version="1.0.2",
+    version="1.0.3",
     author="Patrick Gagnon",
     author_email="plgagnon00@gmail.com",
     py_modules=["HIDUU"],
