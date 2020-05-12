@@ -1,5 +1,6 @@
-from subprocess import check_call
 import os
+from subprocess import check_call
+
 
 def hiduu_upload(hiduu_path = None,
                  upload_command = None,
@@ -48,6 +49,7 @@ def hiduu_upload(hiduu_path = None,
             command.append(reason)
 
         check_call(command)
+        print(command)
 
 
 def hiduu_upload_win(hiduu_path = None,
@@ -79,4 +81,4 @@ def hiduu_upload_win(hiduu_path = None,
         command + " -rn " + data_set_id + " -f " + file + " -re " + reason
 
     os.system(command)
-
+    print(command)
