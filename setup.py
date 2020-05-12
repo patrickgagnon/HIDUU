@@ -10,6 +10,7 @@ setup(
     version="1.0.2",
     author="Patrick Gagnon",
     author_email="plgagnon00@gmail.com",
+    py_modules=["HIDUU"],
     description="A package to upload information to Cerner HealtheIntent",
     long_description=readme,
     long_description_content_type="text/markdown",
