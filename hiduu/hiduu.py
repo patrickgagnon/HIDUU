@@ -72,13 +72,13 @@ def hiduu_upload_win(hiduu_path = None,
     command = "{hiduu_path}hi-data-upload-utility".format(hiduu_path=hiduu_path) + " " + "{upload_command}".format(
         upload_command=upload_command) + " -said " + system_account_id + " -sas " + system_account_secret + " -sid " + source_id
     if upload_command == 'uploadUnvettedFile':
-        command + " -f " + file + " -re " + reason
+        command = command + " -f " + file + " -re " + reason
 
     if upload_command == 'uploadDataSetFile':
-        command + " -dsid " + data_set_id + " -sv " + spec_version + " -fid " + file_id + " -rl " + file_release + " -f " + file
+        command = command + " -dsid " + data_set_id + " -sv " + spec_version + " -fid " + file_id + " -rl " + file_release + " -f " + file
 
     if upload_command == 'uploadReferenceFile':
-        command + " -rn " + data_set_id + " -f " + file + " -re " + reason
+        command = command + " -rn " + data_set_id + " -f " + file + " -re " + reason
 
     os.system(command)
     print(command)
