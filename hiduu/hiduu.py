@@ -69,7 +69,7 @@ def hiduu_upload_win(hiduu_path = None,
                      args = None,
                      encryption = None,
                      client_mnemonic = None):
-    command = "{hiduu_path}hi-data-upload-utility".format(hiduu_path=hiduu_path) + "{upload_command}".format(
+    command = "{hiduu_path}hi-data-upload-utility".format(hiduu_path=hiduu_path) + " " + "{upload_command}".format(
         upload_command=upload_command) + " -said " + system_account_id + " -sas " + system_account_secret + " -sid " + source_id
     if upload_command == 'uploadUnvettedFile':
         command + " -f " + file + " -re " + reason
