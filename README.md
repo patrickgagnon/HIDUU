@@ -1,4 +1,4 @@
-<a href="https://badge.fury.io/py/workspaces"><img src="https://badge.fury.io/py/workspaces.svg" alt="PyPI version" height="18"></a>
+<a href="https://badge.fury.io/py/HIDUU"><img src="https://badge.fury.io/py/HIDUU.svg" alt="PyPI version" height="18"></a>
 
 # HealtheIntent Data Upload Utility 
 
