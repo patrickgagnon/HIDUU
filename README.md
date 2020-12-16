@@ -1,3 +1,5 @@
+<a href="https://badge.fury.io/py/workspaces"><img src="https://badge.fury.io/py/workspaces.svg" alt="PyPI version" height="18"></a>
+
 # HealtheIntent Data Upload Utility 
 
 <img src="https://logos-download.com/wp-content/uploads/2016/10/Cerner_Corporation_logo.png" alt="Cerner" width="200"/>
